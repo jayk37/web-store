@@ -7,7 +7,7 @@ import data from './catalogue.json';
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [filters, setFilters] = useState({  // 2. Add state for filters
+  const [filters, setFilters] = useState({
     color: [],
     gender: [],
     type: [],
@@ -33,7 +33,6 @@ function App() {
     const regex = new RegExp(searchQuery, 'i');
     const searchMatch = regex.test(product.name) || regex.test(product.color) || regex.test(product.type);
     
-    // 3. Update filtering logic
     const filterMatch = Object.keys(filters).every(key => {
       if (filters[key].length === 0) return true;
       if (key === 'price') {
@@ -62,7 +61,7 @@ function App() {
       <main>
         <SearchBar onSearch={handleSearch} />
         <div className="content-area">
-          <Filter handleFilterChange={handleFilterChange} />  {/* Add Filter component */}
+          <Filter handleFilterChange={handleFilterChange} />  {}
           <div className="product-list">
             {filteredProducts.map(product => (
               <ProductCard key={product.id} product={product} />
