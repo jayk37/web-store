@@ -1,0 +1,23 @@
+.filter-container {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    width: 30px; /* Set width to 25% of the parent container */
+    min-width: 250px; /* Ensure it's at least 250px wide */
+    height: auto; /* Let it expand vertically based on content */
+    box-sizing: border-box; /* To include padding and border in total width */
+}
+
+.filter-section h3 {
+    font-size: 18px; /* Increased font size a bit */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.filter-section label {
+    display: block;
+    margin-bottom: 10px; /* Increased margin for better spacing */
+}
+
+.filter-section input[type="checkbox"] {
+    margin-right: 10px; /* Increased margin for better spacing */
+}
