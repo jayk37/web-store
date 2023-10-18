@@ -5,7 +5,7 @@
 1. <b>Browse a Catalogue of Products</b> ```[Every Card Contains Product Image, Name and Price]```
 2. <b>Search Bar</b> ```[Performs Regular Expression Dynamic Search at Every Key Fill]```
 3. <b>Multiple Filters</b> ```[Filters Narrow Search for Products by Colour, Gender, Price and Type]```
-4. Add Same Product Multiple Times ```[Allows One to Pick Same Product More Than Once]```
+4. <b>Add Same Product Multiple Times</b> ```[Allows One to Pick Same Product More Than Once]```
 
 🌀 Filters and Search Bar <b> CAN </b> Be Applied on Top of Each Other or By Themselves, Both Cases are Supported
 
