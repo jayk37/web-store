@@ -11,7 +11,7 @@
 
 🔴 ```Live Deployment``` Can Be Found Here:  https://jayk37.github.io/web-store/
 
-🧭 Tech Stack Used: React.js
+🧭 Tech Stack Used: React.js, HTML, CSS
 
 🌄 Application Preview
 
